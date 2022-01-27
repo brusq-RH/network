@@ -6,6 +6,6 @@
 
 
 - name: configure Cisco IOS vlans
-  cisco.ios.vlans:
+  cisco.ios.ios_vlans:
     config: "{{ vlans | from_yaml }}"
     state: merged
