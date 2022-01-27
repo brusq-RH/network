@@ -2,10 +2,10 @@
 
 - name:  Display vlans 
   debug: 
-    msg: "{{ vlans }}"
+    msg: "{{ vlans[0] }}"
 
 
 - name: configure Cisco IOS vlans
   cisco.ios.vlans:
-    config: “{{ vlans }}”
+    config: “{{ vlans[0] }}”
     state: merged
