@@ -1,4 +1,9 @@
 ---
+
+- name:  test 
+  debug: 
+    msg: "{{ vlans }}"
+    
 - name: configure Arista EOS vlans
   arista.eos.vlans:
     config: “{{ vlans }}”
