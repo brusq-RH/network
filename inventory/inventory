@@ -7,26 +7,14 @@ juniper
 arista
 
 [cisco]
-rtr1 ansible_host=3.71.109.192 private_ip=172.16.75.137
+rtr1 
+
 [arista]
-rtr2 ansible_host=18.192.49.34 private_ip=172.18.249.133
-rtr4 ansible_host=18.184.55.244 private_ip=172.18.227.127
+rtr2 
+rtr4 
+
 [juniper]
-rtr3 ansible_host=3.125.45.86 private_ip=172.16.111.231
-
-[cisco:vars]
-ansible_network_os=ios
-ansible_connection=network_cli
-
-[juniper:vars]
-ansible_network_os=junos
-ansible_connection=netconf
-
-[arista:vars]
-ansible_network_os=eos
-ansible_connection=network_cli
-ansible_become=true
-ansible_become_method=enable
+rtr3 
 
 [dc1]
 rtr1
