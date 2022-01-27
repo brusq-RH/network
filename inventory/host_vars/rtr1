@@ -1,2 +1,13 @@
 ansible_host: 3.71.109.192 
 private_ip: 172.16.75.137
+
+vlans:
+- name: desktops
+  vlan_id: 20
+- name: servers
+  vlan_id: 30
+- name: printers
+  vlan_id: 40
+- name: DMZ
+  vlan_id: 50
+
