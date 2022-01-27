@@ -1,6 +1,6 @@
 ---
 
-- name:  test 
+- name:  Display vlans 
   debug: 
     msg: "{{ vlans }}"
 

@@ -1,4 +1,10 @@
 ---
+
+- name:  Display vlans 
+  debug: 
+    msg: "{{ vlans }}"
+
+
 - name: configure Cisco IOS vlans
   cisco.ios.vlans:
     config: “{{ vlans }}”

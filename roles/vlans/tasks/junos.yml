@@ -1,4 +1,10 @@
 ---
+
+- name:  Display vlans 
+  debug: 
+    msg: "{{ vlans }}"
+
+
 - name: configure Juniper Junos VLANs
   junipernetworks.junos.vlans:
     config: “{{ vlans }}”
