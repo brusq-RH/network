@@ -33,3 +33,7 @@ routers
 restore_inventory="Workshop Inventory"
 restore_credential="Workshop Credential"
 restore_project="Workshop Project"
+
+
+[all]
+backup-server ansible_user= student1 ansible_password=S7HJAbSZBQHulm ansible_host= 18.193.79.172
