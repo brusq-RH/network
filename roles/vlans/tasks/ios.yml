@@ -2,10 +2,10 @@
 
 - name:  Display vlans from_json
   debug: 
-    msg: "{{ vlans | to_json }}"
+    msg: "{{ vlans | from_yaml }}"
 
 
 - name: configure Cisco IOS vlans
   cisco.ios.vlans:
-    config: “{{ vlans | to_json }}”
+    config: “{{ vlans | from_yaml }}”
     state: merged
