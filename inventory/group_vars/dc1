@@ -1,0 +1,2 @@
+ntp_server: dc1.example.org
+snmp_server: dc1-snmp.example.org
