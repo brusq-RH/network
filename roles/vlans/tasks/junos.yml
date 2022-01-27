@@ -7,5 +7,5 @@
 
 - name: configure Juniper Junos VLANs
   junipernetworks.junos.vlans:
-    config: “{{ vlans }}”
+    config: "{{ vlans }}"
     state: merged
