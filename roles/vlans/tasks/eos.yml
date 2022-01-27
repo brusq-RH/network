@@ -6,9 +6,5 @@
 
 - name: configure Arista EOS vlans
   arista.eos.vlans:
-    config: 
-    - name: desktops
-      vlan_id: 20
-    - name: servers
-      vlan_id: 30
+    config: "{{ vlans }}"
     state: merged
