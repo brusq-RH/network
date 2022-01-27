@@ -9,3 +9,4 @@
   cisco.ios.ios_vlans:
     config: "{{ vlans }}"
     state: merged
+  when: vlans is defined

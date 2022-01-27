@@ -8,3 +8,4 @@
   arista.eos.vlans:
     config: "{{ vlans }}"
     state: merged
+  when: vlans is defined
