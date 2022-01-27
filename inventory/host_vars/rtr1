@@ -1,4 +1,2 @@
 ansible_host: 3.71.109.192 
 private_ip: 172.16.75.137
-
-vlans: ""
