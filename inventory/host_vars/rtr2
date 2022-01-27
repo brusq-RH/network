@@ -2,7 +2,7 @@ ansible_host: 18.192.49.34
 private_ip: 172.18.249.133
 
 vlans:
-- name: desktops
-  vlan_id: 20
-- name: servers
-  vlan_id: 30
+  - name: desktops
+    vlan_id: 20
+  - name: servers
+    vlan_id: 30
