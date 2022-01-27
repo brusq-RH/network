@@ -1,10 +1,5 @@
 ---
 
-- name:  Display vlans from_json
-  debug: 
-    msg: "{{ vlans }}"
-
-
 - name: configure Cisco IOS vlans
   cisco.ios.ios_vlans:
     config: "{{ vlans }}"
