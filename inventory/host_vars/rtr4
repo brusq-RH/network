@@ -2,11 +2,11 @@ ansible_host: 18.184.55.244
 private_ip: 172.18.227.127
 
 vlans:
-- name: desktops
-  vlan_id: 20
-- name: servers
-  vlan_id: 30
-- name: printers
-  vlan_id: 40
-- name: DMZ
-  vlan_id: 50
+  - name: desktops
+    vlan_id: 20
+  - name: servers
+    vlan_id: 30
+  - name: printers
+    vlan_id: 40
+  - name: DMZ
+    vlan_id: 50
