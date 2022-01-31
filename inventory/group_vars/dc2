@@ -1,2 +1,3 @@
+datacenter_name: dc2
 ntp_server: dc2.example.org
 snmp_server: dc2-snmp.example.org
