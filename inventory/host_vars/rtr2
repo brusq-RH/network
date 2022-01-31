@@ -1,5 +1,5 @@
-ansible_host: 18.192.49.34 
-private_ip: 172.18.249.133
+ansible_host: 3.70.154.113
+private_ip: 172.18.208.60
 
 vlans:
   - name: desktops

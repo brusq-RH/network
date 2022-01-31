@@ -25,7 +25,7 @@ rtr2
 rtr4
 
 [control]
-ansible-1 ansible_host=18.193.79.172 ansible_user=student1 private_ip=172.16.5.40 ansible_password=S7HJAbSZBQHulm
+ansible-1 ansible_host=18.198.4.101 ansible_user=student1 private_ip=172.16.237.53 ansible_password=3goEuAi9VvISgg
 
 [network:children]
 routers
@@ -35,4 +35,4 @@ restore_credential="Workshop Credential"
 restore_project="Workshop Project"
 
 [backup]
-backup-server ansible_user=student1 ansible_password=S7HJAbSZBQHulm ansible_host=18.193.79.172
+backup-server ansible_user=student1 ansible_password=3goEuAi9VvISgg ansible_host=18.198.4.101
