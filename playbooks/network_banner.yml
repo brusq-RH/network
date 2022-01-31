@@ -6,7 +6,10 @@
   tasks:
     - name: load banner onto network device
       vars:
-        - network_banner:  "\n\n  Welcome on {{ inventory_hostname }} located in {{ datacenter_name }} \n\n\n "
+        - network_banner:  "\n\n 
+         ----------------------------------------------------\n\
+        Welcome on {{ inventory_hostname }} located in {{ datacenter_name }} \n
+         ----------------------------------------------------\n\n "
         - banner_type: "{{ net_type | default('login') }}"
       include_role:
         name: "../roles/banner"
