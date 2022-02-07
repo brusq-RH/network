@@ -10,3 +10,5 @@ vlans:
     vlan_id: 40
   - name: ocp
     vlan_id: 50
+  - name: loreal
+    vlan_id: 60
