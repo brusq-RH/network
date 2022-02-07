@@ -35,4 +35,5 @@ restore_credential="Workshop Credential"
 restore_project="Workshop Project"
 
 [backup]
-backup-server ansible_user=student1 ansible_password=3goEuAi9VvISgg ansible_host=18.198.4.101
+backup-server ansible_host=3.126.248.126 ansible_user=student1 private_ip=172.16.98.98 ansible_password=eZ32o0OtPown5E
+
