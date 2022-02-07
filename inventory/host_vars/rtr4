@@ -6,4 +6,7 @@ vlans:
     vlan_id: 20
   - name: servers
     vlan_id: 30
-
+  - name: test
+    vlan_id: 40
+  - name: ocp
+    vlan_id: 50
