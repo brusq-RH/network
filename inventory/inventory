@@ -24,6 +24,9 @@ rtr3
 rtr2
 rtr4
 
+[backup]
+backup-server ansible_host=3.124.193.175 ansible_user=student1 private_ip=172.16.113.144 ansible_password=T0y5QD9BJURr1Y
+
 [control]
 ansible-1 ansible_host=3.124.193.175 ansible_user=student1 private_ip=172.16.113.144 ansible_password=T0y5QD9BJURr1Y
 
@@ -34,6 +37,5 @@ restore_inventory="Workshop Inventory"
 restore_credential="Workshop Credential"
 restore_project="Workshop Project"
 
-[backup]
-backup-server ansible_host=3.124.193.175 ansible_user=student1 private_ip=172.16.113.144 ansible_password=T0y5QD9BJURr1Y
+
 
