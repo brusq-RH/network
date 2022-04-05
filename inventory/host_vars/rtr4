@@ -1,14 +1,8 @@
-ansible_host: 35.159.38.205
-private_ip: 172.18.229.20
+ansible_host: 3.70.160.51
+private_ip: 172.18.20.218
 
 vlans:
   - name: desktops
     vlan_id: 20
   - name: servers
     vlan_id: 30
-  - name: test
-    vlan_id: 40
-  - name: ocp
-    vlan_id: 50
-  - name: loreal
-    vlan_id: 60
