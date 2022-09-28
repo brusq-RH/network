@@ -6,4 +6,3 @@ vlans:
     vlan_id: 20
   - name: servers
     vlan_id: 30
-$
