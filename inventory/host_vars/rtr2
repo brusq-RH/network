@@ -4,3 +4,6 @@ private_ip: 172.18.152.64
 vlans:
   - name: desktops
     vlan_id: 20
+  - name: printers
+    vlan_id: 30
+
