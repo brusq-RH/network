@@ -7,4 +7,4 @@ vlans:
   - name: servers
     vlan_id: 30
   - name: printers
-    vlan_id: 30
+    vlan_id: 40
