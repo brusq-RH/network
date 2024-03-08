@@ -4,3 +4,5 @@ private_ip: 172.18.249.7
 vlans:
   - name: desktops
     vlan_id: 20
+  - name: servers
+    vlan_id: 30
