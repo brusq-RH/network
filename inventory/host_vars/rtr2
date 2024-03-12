@@ -4,3 +4,5 @@ private_ip: 172.18.34.145
 vlans:
   - name: desktops
     vlan_id: 20
+  - name: manutan
+    vlan_id: 30
