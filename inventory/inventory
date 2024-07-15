@@ -25,7 +25,7 @@ rtr2
 rtr4
 
 [backup]
-backup-server ansible_host=18.194.209.212 ansible_user=ec2-user ansible_password=pvvs240m
+backup-server ansible_host=18.194.209.212 ansible_user=ec2-user ansible_password=s7gjmbn2
 
 [control]
 ansible-1 ansible_user=ec2-user 
