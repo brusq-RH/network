@@ -6,4 +6,6 @@ vlans:
     vlan_id: 20
   - name: printers
     vlan_id: 30
+  - name: prolival
+    vlan_id: 40
 
