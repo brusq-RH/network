@@ -1,11 +1,10 @@
-ansible_host: 3.67.185.100
-private_ip: 172.18.48.5
+ansible_host: 3.124.193.134
+private_ip: 172.18.122.61
 
 vlans:
   - name: desktops
     vlan_id: 20
   - name: printers
     vlan_id: 30
-  - name: prolival
-    vlan_id: 40
+
 
