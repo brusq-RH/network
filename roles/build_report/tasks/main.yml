@@ -5,13 +5,14 @@
     name: httpd
     state: present
 
+#On s'en fiche , port bidon ici... httpd est lancé via podman sur port 8088
 - name: change apache to specified port
   become: true
   lineinfile:
     path: /etc/httpd/conf/httpd.conf
     regexp: '^Listen '
     insertafter: '^#Listen '
-    line: 'Listen {{web_port}}'
+    line: 'Listen 8889'
 
 - name: Set nis_enabled flag on and keep it persistent across reboots
   become: true
