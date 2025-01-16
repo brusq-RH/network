@@ -1,3 +1,2 @@
-ansible_host: 54.93.238.194
-private_ip: 172.16.175.232
-
+ansible_host: 18.185.109.7
+private_ip: 172.16.223.15
