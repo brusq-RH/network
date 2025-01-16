@@ -28,7 +28,7 @@ rtr4
 backup-server ansible_host=18.156.128.212 ansible_user=ec2-user ansible_password=hmhukyqn
 
 [control]
-ansible-1 ansible_user=ec2-user 
+ansible-1 ansible_host= 172.16.45.249 ansible_user=ec2-user 
 
 [network:children]
 routers
