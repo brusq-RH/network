@@ -53,4 +53,4 @@
 
 - name: display link to inventory report
   debug:
-    msg: "Please go to http://3.123.33.226:{{web_port}}"
+    msg: "Please go to http://18.156.128.212:{{web_port}}"
