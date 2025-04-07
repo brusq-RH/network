@@ -16,4 +16,4 @@
         - name: "{{ data.name }}"
           description: "{{ data.description }}"
           enabled: "{{ data.enabled }}"
-          state: replaced
+        state: replaced
