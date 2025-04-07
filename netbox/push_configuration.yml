@@ -10,3 +10,14 @@
     - name: data
       debug:
         msg: "data {{data}}"
+
+    - name: data short
+      debug:
+        msg: "{{  'name':data.name, 'description':data.description, 'enabled':data.enabled }}"
+    - set_fact:
+        net_intfs: "{{  'name':data.name, 'description':data.description, 'enabled':data.enabled }}"
+
+    - name: Push Cisco IOS interface basics
+      cisco.ios.ios_interfaces:
+        config: "{{ net_intfs }}"
+        state: replaced
