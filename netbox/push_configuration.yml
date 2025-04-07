@@ -11,20 +11,22 @@
       debug:
         msg: "data {{data}}"
 
-
+    - name: set facts
+      set_fact: 
+        data_json: "{{data}} | to_json" 
 
     - name: data description
       debug:
-        msg: "data {{ data.description }}"
+        msg: "data {{ data_json.description }}"
 
 
     - name: data name
       debug:
-        msg: "data {{ data['name'] }}"
-        
+        msg: "data {{ data_json['name'] }}"
+
     - name: data enabled
       debug:
-        msg: "data {{ data.enabled }}"
+        msg: "data {{ data_json.enabled }}"
 
     - name: Push Cisco IOS interface basics
       cisco.ios.ios_interfaces:
