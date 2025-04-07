@@ -1,16 +1,12 @@
 ---
 
 - name: Push data on the device
-  hosts: localhost
+  hosts: "{{ device_id }}"
   connection: local
 
   gather_facts: false
   tasks:
 
-    - name: Device
+    - name: data
       debug:
-        msg: "device {{device_id}}"
-
-    - name: interface
-      debug:
-        msg: "device {{interface_id}}"
+        msg: "data {{data}}"
