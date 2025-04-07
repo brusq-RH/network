@@ -7,3 +7,7 @@
     - name: Get IP from IPAM (simu)
       set_fact:
         vm_ip: "192.168.1.190"
+
+    - name: Get IP from IPAM (simu)
+      set_fact:
+        domain: "my-lab.local"
