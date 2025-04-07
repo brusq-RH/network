@@ -13,7 +13,7 @@
 
     - name: Push Cisco IOS interface basics
       cisco.ios.ios_interfaces:
-      - name: "{{ data.name }}"
-        description: "{{ data.description }}"
-        enabled: "{{ data.enabled }}"
-        state: replaced
+        - name: "{{ data.name }}"
+          description: "{{ data.description }}"
+          enabled: "{{ data.enabled }}"
+          state: replaced
