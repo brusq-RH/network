@@ -1,7 +1,9 @@
 ---
 
 - name: Push data on the device
-  hosts: all
+  hosts: localhost
+  connection: local
+
   gather_facts: false
   tasks:
 
