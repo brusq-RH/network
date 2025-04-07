@@ -9,4 +9,8 @@
 
     - name: Device
       debug:
-        message: "device {{device}}"
+        message: "device {{device_id}}"
+
+    - name: interface
+      debug:
+        message: "device {{interface_id}}"
