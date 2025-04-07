@@ -1,0 +1,10 @@
+---
+
+- name: Push data on the device
+  hosts: all
+  gather_facts: false
+  tasks:
+
+    - name: Device
+      debug:
+        message: "device {{device}}"

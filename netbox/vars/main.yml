@@ -1,0 +1,5 @@
+---
+net_netbox_url: https://192.168.1.55
+net_netbox_token: "a5c50af322a5bee1ee671d2faf82ffba2dfb0afb"
+
+site: 'datacenter1'
