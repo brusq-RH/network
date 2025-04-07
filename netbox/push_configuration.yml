@@ -1,6 +1,6 @@
 ---
 
-- name: Push data on the device
+- name: Push data on Cisco  device
   hosts: "{{ device_id }}"
   connection: local
 
