@@ -11,15 +11,9 @@
       debug:
         msg: "data {{data}}"
 
-
-    - set_fact:
-        net_intfs: "{{  'name':data.name, 'description':data.description, 'enabled':data.enabled }}"
-
-    - name: data short
-      debug:
-        msg: "{{ net_intfs }}"
-
     - name: Push Cisco IOS interface basics
       cisco.ios.ios_interfaces:
-        config: "{{ net_intfs }}"
+      - name: "{{ data.name }}"
+        description: "{{ data.description }}"
+        enabled: "{{ data.enabled }}"
         state: replaced
