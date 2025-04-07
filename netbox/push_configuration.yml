@@ -11,10 +11,23 @@
       debug:
         msg: "data {{data}}"
 
+
+    - name: data name
+      debug:
+        msg: "data {{data.name}}"
+
+    - name: data description
+      debug:
+        msg: "data {{data.description}}"
+
+    - name: data enabled
+      debug:
+        msg: "data {{data.enabled}}"
+
     - name: Push Cisco IOS interface basics
       cisco.ios.ios_interfaces:
         config:
           - name: "{{ data.name }}"
             description: "{{ data.description }}"
             enabled: "{{ data.enabled }}"
-        state: replaced
+        state: merged
