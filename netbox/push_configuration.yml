@@ -7,18 +7,9 @@
   gather_facts: false
   tasks:
 
-
     - name: data name
       debug:
-        msg: "data {{ data_name }}"
-
-    - name: data enabled
-      debug:
-        msg: "data {{ data_enabled }}"
-        
-    - name: data descriptio 
-      debug:
-        msg: "data {{ data_description }}"
+        msg: "data {{ data }}"
 
     - name: Push Cisco IOS interface basics
       cisco.ios.ios_interfaces:
