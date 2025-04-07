@@ -14,15 +14,15 @@
 
     - name: data name
       debug:
-        msg: "data {{data.name}}"
+        msg: "data {{ data.name }}"
 
     - name: data description
       debug:
-        msg: "data {{data.description}}"
+        msg: "data {{ data.description }}"
 
     - name: data enabled
       debug:
-        msg: "data {{data.enabled}}"
+        msg: "data {{ data.enabled }}"
 
     - name: Push Cisco IOS interface basics
       cisco.ios.ios_interfaces:
