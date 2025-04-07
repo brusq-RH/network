@@ -13,7 +13,7 @@
 
     - name: set facts
       set_fact: 
-        data_json: "{{data}} | to_json" 
+        data_json: "{{data | to_json }}" 
 
     - name: data description
       debug:
