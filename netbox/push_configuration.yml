@@ -14,7 +14,7 @@
 
     - name: data name
       debug:
-        msg: "data {{ data.name }}"
+        msg: "data {{ data['name'] }}"
 
     - name: data description
       debug:
