@@ -1,0 +1,11 @@
+---
+- name: Open Port on Firewall 
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: Open Port on firewall
+      debug:
+        msg: "{{ server_type }}"
+        
+  
