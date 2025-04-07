@@ -9,8 +9,8 @@
 
     - name: Device
       debug:
-        message: "device {{device_id}}"
+        msg: "device {{device_id}}"
 
     - name: interface
       debug:
-        message: "device {{interface_id}}"
+        msg: "device {{interface_id}}"
