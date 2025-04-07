@@ -1,6 +1,7 @@
 ---
 - name: Open Port on Firewall 
-  hosts: all
+  hosts: localhost  
+  connection: local
   gather_facts: no
 
   tasks:
