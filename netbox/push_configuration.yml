@@ -7,31 +7,23 @@
   gather_facts: false
   tasks:
 
-    - name: data
-      debug:
-        msg: "data {{data}}"
-
-    - name: set facts
-      set_fact: 
-        data_json: "{{data | to_nice_json }}" 
-
-    - name: data description
-      debug:
-        msg: "data {{ data_json.description }}"
-
 
     - name: data name
       debug:
-        msg: "data {{ data_json['name'] }}"
+        msg: "data {{ data_name }}"
 
     - name: data enabled
       debug:
-        msg: "data {{ data_json.enabled }}"
+        msg: "data {{ data_enabled }}"
+        
+    - name: data descriptio 
+      debug:
+        msg: "data {{ data_description }}"
 
     - name: Push Cisco IOS interface basics
       cisco.ios.ios_interfaces:
         config:
-          - name: "{{ data.name }}"
-            description: "{{ data.description }}"
-            enabled: "{{ data.enabled }}"
-        state: merged
+          - name: "{{ data_name }}"
+            description: "{{ data_description }}"
+            enabled: "{{ data_enabled }}"
+        state: replaced
