@@ -7,6 +7,6 @@
   tasks:
     - name: Open Port on firewall
       debug:
-        msg: "{{ server_type }}"
+        msg: "{{ type }}"
         
   
