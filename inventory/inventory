@@ -25,7 +25,7 @@ rtr2
 rtr4
 
 [backup]
-backup-server ansible_host=18.156.128.212 ansible_user=ec2-user ansible_password=hmhukyqn
+ansible-1 ansible_host=3.70.219.241 ansible_user=ec2-user private_ip=172.16.158.63
 
 [control]
 ansible-1  ansible_user=ec2-user 
