@@ -5,10 +5,5 @@ vlans:
     vlan_id: 20
   - name: printers
     vlan_id: 30
-  - name: servers
-    vlan_id: 40
-  - name: wifi
-    vlan_id: 50
-  - name: suez
-    vlan_id: 60
+
 
