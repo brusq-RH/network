@@ -7,3 +7,5 @@ vlans:
     vlan_id: 30
   - name: newvlan
     vlan_id: 40
+  - name: opmobility
+    vlan_id: 50
